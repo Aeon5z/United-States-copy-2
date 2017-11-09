@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Alabama</key>
+	<dict>
+		<key>StateName</key>
+		<string>Alabama</string>
+		<key>Year</key>
+		<string>1816</string>
+		<key>Flag</key>
+		<string>Flags/Small/alabama-flag-small</string>
+		<key>Motto</key>
+		<string>Audemu jura nosta defendere</string>
+		<key>Capital</key>
+		<string>Montgomery</string>
+		<key>Population</key>
+		<string>4,863,300</string>
+	</dict>
+</dict>
+</plist>

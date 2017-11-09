@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFC812191FB178210044FF5E /* Birds in Resources */ = {isa = PBXBuildFile; fileRef = AFC812181FB178210044FF5E /* Birds */; };
+		AFCCEFD21FB42121006D3697 /* UnitedStateList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFCCEFD11FB42121006D3697 /* UnitedStateList.plist */; };
 		CEEEAAFF1FAA835200CC0CF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEAAFE1FAA835200CC0CF4 /* AppDelegate.m */; };
-		CEEEAB021FAA835200CC0CF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEAB011FAA835200CC0CF4 /* ViewController.m */; };
 		CEEEAB051FAA835200CC0CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEEAB031FAA835200CC0CF4 /* Main.storyboard */; };
 		CEEEAB071FAA835200CC0CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEEAB061FAA835200CC0CF4 /* Assets.xcassets */; };
 		CEEEAB0A1FAA835200CC0CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEEAB081FAA835200CC0CF4 /* LaunchScreen.storyboard */; };
 		CEEEAB0D1FAA835200CC0CF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEAB0C1FAA835200CC0CF4 /* main.m */; };
 		CEEEAB171FAA835200CC0CF4 /* United_StatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEAB161FAA835200CC0CF4 /* United_StatesTests.m */; };
 		CEEEAB221FAA835200CC0CF4 /* United_StatesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEAB211FAA835200CC0CF4 /* United_StatesUITests.m */; };
+		CEEEAB311FAA853600CC0CF4 /* StatesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEAB301FAA853600CC0CF4 /* StatesTableViewController.m */; };
+		CEEEAB341FAA861600CC0CF4 /* StatesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEAB331FAA861600CC0CF4 /* StatesTableViewCell.m */; };
+		CEEEAB361FAA877F00CC0CF4 /* Flags in Resources */ = {isa = PBXBuildFile; fileRef = CEEEAB351FAA877F00CC0CF4 /* Flags */; };
+		CEEEAB391FAA8A6B00CC0CF4 /* StateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEAB381FAA8A6B00CC0CF4 /* StateInfo.m */; };
+		CEEEAB3F1FAAA49800CC0CF4 /* StateDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEAB3E1FAAA49800CC0CF4 /* StateDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AFC812181FB178210044FF5E /* Birds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Birds; sourceTree = SOURCE_ROOT; };
+		AFCCEFD11FB42121006D3697 /* UnitedStateList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UnitedStateList.plist; sourceTree = "<group>"; };
 		CEEEAAFA1FAA835100CC0CF4 /* United States.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "United States.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEEAAFD1FAA835100CC0CF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEEEAAFE1FAA835200CC0CF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEEEAB001FAA835200CC0CF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEEEAB011FAA835200CC0CF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEEEAB041FAA835200CC0CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEEEAB061FAA835200CC0CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEEEAB091FAA835200CC0CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,15 @@
 		CEEEAB1D1FAA835200CC0CF4 /* United StatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "United StatesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEEAB211FAA835200CC0CF4 /* United_StatesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = United_StatesUITests.m; sourceTree = "<group>"; };
 		CEEEAB231FAA835200CC0CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEEAB2F1FAA853600CC0CF4 /* StatesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatesTableViewController.h; sourceTree = "<group>"; };
+		CEEEAB301FAA853600CC0CF4 /* StatesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatesTableViewController.m; sourceTree = "<group>"; };
+		CEEEAB321FAA861600CC0CF4 /* StatesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatesTableViewCell.h; sourceTree = "<group>"; };
+		CEEEAB331FAA861600CC0CF4 /* StatesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatesTableViewCell.m; sourceTree = "<group>"; };
+		CEEEAB351FAA877F00CC0CF4 /* Flags */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flags; sourceTree = SOURCE_ROOT; };
+		CEEEAB371FAA8A6B00CC0CF4 /* StateInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateInfo.h; sourceTree = "<group>"; };
+		CEEEAB381FAA8A6B00CC0CF4 /* StateInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateInfo.m; sourceTree = "<group>"; };
+		CEEEAB3D1FAAA49800CC0CF4 /* StateDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateDetailViewController.h; sourceTree = "<group>"; };
+		CEEEAB3E1FAAA49800CC0CF4 /* StateDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +118,19 @@
 			children = (
 				CEEEAAFD1FAA835100CC0CF4 /* AppDelegate.h */,
 				CEEEAAFE1FAA835200CC0CF4 /* AppDelegate.m */,
-				CEEEAB001FAA835200CC0CF4 /* ViewController.h */,
-				CEEEAB011FAA835200CC0CF4 /* ViewController.m */,
+				CEEEAB371FAA8A6B00CC0CF4 /* StateInfo.h */,
+				CEEEAB381FAA8A6B00CC0CF4 /* StateInfo.m */,
+				CEEEAB3D1FAAA49800CC0CF4 /* StateDetailViewController.h */,
+				CEEEAB3E1FAAA49800CC0CF4 /* StateDetailViewController.m */,
+				CEEEAB2F1FAA853600CC0CF4 /* StatesTableViewController.h */,
+				CEEEAB301FAA853600CC0CF4 /* StatesTableViewController.m */,
+				CEEEAB321FAA861600CC0CF4 /* StatesTableViewCell.h */,
+				CEEEAB331FAA861600CC0CF4 /* StatesTableViewCell.m */,
 				CEEEAB031FAA835200CC0CF4 /* Main.storyboard */,
+				AFCCEFD11FB42121006D3697 /* UnitedStateList.plist */,
+				AFC812181FB178210044FF5E /* Birds */,
 				CEEEAB061FAA835200CC0CF4 /* Assets.xcassets */,
+				CEEEAB351FAA877F00CC0CF4 /* Flags */,
 				CEEEAB081FAA835200CC0CF4 /* LaunchScreen.storyboard */,
 				CEEEAB0B1FAA835200CC0CF4 /* Info.plist */,
 				CEEEAB0C1FAA835200CC0CF4 /* main.m */,
@@ -239,8 +263,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEEEAB0A1FAA835200CC0CF4 /* LaunchScreen.storyboard in Resources */,
+				AFC812191FB178210044FF5E /* Birds in Resources */,
 				CEEEAB071FAA835200CC0CF4 /* Assets.xcassets in Resources */,
+				CEEEAB361FAA877F00CC0CF4 /* Flags in Resources */,
 				CEEEAB051FAA835200CC0CF4 /* Main.storyboard in Resources */,
+				AFCCEFD21FB42121006D3697 /* UnitedStateList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEEAB021FAA835200CC0CF4 /* ViewController.m in Sources */,
+				CEEEAB391FAA8A6B00CC0CF4 /* StateInfo.m in Sources */,
+				CEEEAB311FAA853600CC0CF4 /* StatesTableViewController.m in Sources */,
 				CEEEAB0D1FAA835200CC0CF4 /* main.m in Sources */,
 				CEEEAAFF1FAA835200CC0CF4 /* AppDelegate.m in Sources */,
+				CEEEAB341FAA861600CC0CF4 /* StatesTableViewCell.m in Sources */,
+				CEEEAB3F1FAAA49800CC0CF4 /* StateDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

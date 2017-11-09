@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  StateInfo.m
 //  United States
 //
 //  Created by user on 11/1/17.
 //  Copyright © 2017 user. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "StateInfo.h"
 
-@interface ViewController : UIViewController
-
+@implementation StateInfo
 
 @end
-
